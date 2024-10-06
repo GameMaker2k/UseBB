@@ -1,33 +1,34 @@
 <?php
 
 /*
-	Copyright (C) 2003-2012 UseBB Team
-	http://www.usebb.net
-	
-	$Id$
-	
-	This file is part of UseBB.
-	
-	UseBB is free software; you can redistribute it and/or modify
-	it under the terms of the GNU General Public License as published by
-	the Free Software Foundation; either version 2 of the License, or
-	(at your option) any later version.
-	
-	UseBB is distributed in the hope that it will be useful,
-	but WITHOUT ANY WARRANTY; without even the implied warranty of
-	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-	GNU General Public License for more details.
-	
-	You should have received a copy of the GNU General Public License
-	along with UseBB; if not, write to the Free Software
-	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+    Copyright (C) 2003-2012 UseBB Team
+    http://www.usebb.net
+
+    $Id$
+
+    This file is part of UseBB.
+
+    UseBB is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    UseBB is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with UseBB; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
 //
 // Die when called directly in browser
 //
-if ( !defined('INCLUDED') )
-	exit();
+if (!defined('INCLUDED')) {
+    exit();
+}
 
 $lang['AdminLogin'] = 'Admin Login';
 $lang['AdminPasswordExplain'] = 'For security reasons, you must enter your account\'s password to login into the ACP.';
@@ -547,5 +548,3 @@ $lang['BansEmail'] = 'E-mail address';
 $lang['BansIp_addr'] = 'IP address';
 $lang['BansNoBansExist'] = 'No bans of this type exist at this forum.';
 $lang['BansIPBansDisabledInfo'] = 'IP address banning has been disabled in the board configuration.';
-
-?>

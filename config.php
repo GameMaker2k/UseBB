@@ -1,26 +1,26 @@
 <?php
 
 /*
-	Copyright (C) 2003-2012 UseBB Team
-	http://www.usebb.net
-	
-	$Id$
-	
-	This file is part of UseBB.
-	
-	UseBB is free software; you can redistribute it and/or modify
-	it under the terms of the GNU General Public License as published by
-	the Free Software Foundation; either version 2 of the License, or
-	(at your option) any later version.
-	
-	UseBB is distributed in the hope that it will be useful,
-	but WITHOUT ANY WARRANTY; without even the implied warranty of
-	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-	GNU General Public License for more details.
-	
-	You should have received a copy of the GNU General Public License
-	along with UseBB; if not, write to the Free Software
-	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+    Copyright (C) 2003-2012 UseBB Team
+    http://www.usebb.net
+
+    $Id$
+
+    This file is part of UseBB.
+
+    UseBB is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    UseBB is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with UseBB; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
 /**
@@ -39,8 +39,9 @@
 //
 // Die when called directly in browser
 //
-if ( !defined('INCLUDED') )
-	exit();
+if (!defined('INCLUDED')) {
+    exit();
+}
 
 //
 // Initialize a new database configuration holder array
@@ -79,7 +80,7 @@ $conf['antispam_disable_profile_links'] = 0;
 $conf['antispam_status_max_posts'] = 0;
 $conf['antispam_status_for_guests'] = 0;
 $conf['antispam_question_mode'] = 0;
-$conf['antispam_question_questions'] = array ();
+$conf['antispam_question_questions'] = array();
 $conf['avatars_force_width'] = 0;
 $conf['avatars_force_height'] = 0;
 $conf['board_closed'] = 0;
@@ -101,8 +102,8 @@ $conf['disable_xhtml_header'] = 1;
 $conf['dnsbl_powered_banning_globally'] = 0;
 $conf['dnsbl_powered_banning_min_hits'] = 2;
 $conf['dnsbl_powered_banning_recheck_minutes'] = 0;
-$conf['dnsbl_powered_banning_servers'] = array ();
-$conf['dnsbl_powered_banning_whitelist'] = array (  0 => '127.0.0.1',  1 => '*.googlebot.com',);
+$conf['dnsbl_powered_banning_servers'] = array();
+$conf['dnsbl_powered_banning_whitelist'] = array(  0 => '127.0.0.1',  1 => '*.googlebot.com',);
 $conf['dst'] = 0;
 $conf['edit_post_timeout'] = 900;
 $conf['email_view_level'] = 1;
@@ -126,9 +127,9 @@ $conf['enable_rss_per_topic'] = 1;
 $conf['enable_stafflist'] = 0;
 $conf['enable_stats'] = 0;
 $conf['error_log_log_hidden'] = 0;
-$conf['exclude_forums_active_topics'] = array ();
-$conf['exclude_forums_rss'] = array ();
-$conf['exclude_forums_stats'] = array ();
+$conf['exclude_forums_active_topics'] = array();
+$conf['exclude_forums_rss'] = array();
+$conf['exclude_forums_stats'] = array();
 $conf['flood_interval'] = 30;
 $conf['friendly_urls'] = 0;
 $conf['force_latin1_db'] = 0;
@@ -188,5 +189,3 @@ $conf['view_memberlist_min_level'] = 1;
 $conf['view_search_min_level'] = 0;
 $conf['view_stafflist_min_level'] = 0;
 $conf['view_stats_min_level'] = 1;
-
-?>
